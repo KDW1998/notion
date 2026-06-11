@@ -49,7 +49,7 @@ leakage_dilation9_val_root = '/.../leakage'
 ```
 <root>/
 ├── leftImg8bit/train/        *_leftImg8bit.png        (입력 이미지)
-└── ReDilation_gtFine/train/  *_gtFine_labelIds.png    (정답 라벨)
+└── gtFine/train/             *_gtFine_labelIds.png    (정답 라벨)
 ```
 
 검증 데이터:

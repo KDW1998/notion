@@ -95,7 +95,7 @@ label_map = {
 #   - 사용하려면 아래 각 *_root 경로를 본인 데이터 경로로 바꾸세요.
 #   - 각 data_root 폴더 구조:
 #       leftImg8bit/train/*_leftImg8bit.png        (입력 이미지)
-#       ReDilation_gtFine/train/*_gtFine_labelIds.png  (정답 라벨)
+#       gtFine/train/*_gtFine_labelIds.png  (정답 라벨)
 # ============================================================================
 kcqr_2023_v1_root='/home/user/WindowsShare/05. Data/04. Raw Images & Archive/206. hardnegative/학습데이터/실제촬영이미지/2022_현장촬영이미지'
 kcqr_2023_v1 = dict(
@@ -104,7 +104,7 @@ kcqr_2023_v1 = dict(
         data_root=kcqr_2023_v1_root,
         data_prefix=dict(
             img_path='leftImg8bit/train',
-            seg_map_path='ReDilation_gtFine/train'
+            seg_map_path='gtFine/train'
         ),
         label_map=label_map,
         pipeline=train_pipeline,
@@ -118,7 +118,7 @@ kcqr_2023_v2 = dict(
         data_root=kcqr_2023_v2_root,
         data_prefix=dict(
             img_path='leftImg8bit/train',
-            seg_map_path='ReDilation_gtFine/train'
+            seg_map_path='gtFine/train'
         ),
         label_map=label_map,
         pipeline=train_pipeline,
@@ -132,7 +132,7 @@ kcqr_2023_v3 = dict(
         data_root=kcqr_2023_v3_root,
         data_prefix=dict(
             img_path='leftImg8bit/train',
-            seg_map_path='ReDilation_gtFine/train'
+            seg_map_path='gtFine/train'
         ),
         label_map=label_map,
         pipeline=train_pipeline,
@@ -146,7 +146,7 @@ kcqr_2023_v4 = dict(
         data_root=kcqr_2023_v4_root,
         data_prefix=dict(
             img_path='leftImg8bit/train',
-            seg_map_path='ReDilation_gtFine/train'
+            seg_map_path='gtFine/train'
         ),
         label_map=label_map,
         pipeline=train_pipeline,
@@ -160,7 +160,7 @@ kcqr_2023_v5 = dict(
         data_root=kcqr_2023_v5_root,
         data_prefix=dict(
             img_path='leftImg8bit/train',
-            seg_map_path='ReDilation_gtFine/train'
+            seg_map_path='gtFine/train'
         ),
         label_map=label_map,
         pipeline=train_pipeline,
@@ -174,7 +174,7 @@ kcqr_2023_v6 = dict(
         data_root=kcqr_2023_v6_root,
         data_prefix=dict(
             img_path='leftImg8bit/train',
-            seg_map_path='ReDilation_gtFine/train'
+            seg_map_path='gtFine/train'
         ),
         label_map=label_map,
         pipeline=train_pipeline,
@@ -188,7 +188,7 @@ kcqr_2023_v7 = dict(
         data_root=kcqr_2023_v7_root,
         data_prefix=dict(
             img_path='leftImg8bit/train',
-            seg_map_path='ReDilation_gtFine/train'
+            seg_map_path='gtFine/train'
         ),
         label_map=label_map,
         pipeline=train_pipeline,
@@ -202,7 +202,7 @@ kcqr_2023_v8 = dict(
         data_root=kcqr_2023_v8_root,
         data_prefix=dict(
             img_path='leftImg8bit/train',
-            seg_map_path='ReDilation_gtFine/train'
+            seg_map_path='gtFine/train'
         ),
         label_map=label_map,
         pipeline=train_pipeline,
@@ -216,7 +216,7 @@ kcqr_2023_v9 = dict(
         data_root=kcqr_2023_v9_root,
         data_prefix=dict(
             img_path='leftImg8bit/train',
-            seg_map_path='ReDilation_gtFine/train'
+            seg_map_path='gtFine/train'
         ),
         label_map=label_map,
         pipeline=train_pipeline,
@@ -230,7 +230,7 @@ kcqr_2023_v10 = dict(
         data_root=kcqr_2023_v10_root,
         data_prefix=dict(
             img_path='leftImg8bit/train',
-            seg_map_path='ReDilation_gtFine/train'
+            seg_map_path='gtFine/train'
         ),
         label_map=label_map,
         pipeline=train_pipeline,
